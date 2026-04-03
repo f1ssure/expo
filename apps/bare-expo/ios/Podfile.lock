@@ -668,8 +668,8 @@ PODS:
   - hermes-engine (250829098.0.10):
     - hermes-engine/Pre-built (= 250829098.0.10)
   - hermes-engine/Pre-built (250829098.0.10)
-  - libavif/core (1.0.0)
-  - libavif/libdav1d (1.0.0):
+  - libavif/core (0.11.1)
+  - libavif/libdav1d (0.11.1):
     - libavif/core
     - libdav1d (>= 0.6.0)
   - libdav1d (1.2.0)
@@ -3095,9 +3095,9 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - SDWebImage (5.21.7):
-    - SDWebImage/Core (= 5.21.7)
-  - SDWebImage/Core (5.21.7)
+  - SDWebImage (5.21.5):
+    - SDWebImage/Core (= 5.21.5)
+  - SDWebImage/Core (5.21.5)
   - SDWebImageAVIFCoder (0.11.1):
     - libavif/core (>= 0.11.0)
     - SDWebImage (~> 5.10)
@@ -3883,8 +3883,8 @@ SPEC CHECKSUMS:
   EXUpdates: a0f980531cbcf45906b2489febd4e11a5895f332
   EXUpdatesInterface: 5ab8c3e8018ef533a132b9327af5b2a1926dd299
   FBLazyVector: 0a4f3183cfecc7c9f3db440332ab522298a14a2e
-  hermes-engine: 725fd85144e1348879039099a6be950c471a4f2c
-  libavif: 5f8e715bea24debec477006f21ef9e95432e254d
+  hermes-engine: d86b89633a1264e1d670880b11582c4a8489320d
+  libavif: 84bbb62fb232c3018d6f1bab79beea87e35de7b7
   libdav1d: 23581a4d8ec811ff171ed5e2e05cd27bad64c39f
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   lottie-ios: 8f959969761e9c45d70353667d00af0e5b9cadb3
@@ -3901,7 +3901,7 @@ SPEC CHECKSUMS:
   React: 16d31b8b032e8f8bc687b80f89493c5909e17152
   React-callinvoker: 5ebf1032973c67f358820d649bc97ee1380b1e27
   React-Core: 93acbf2b58b8fa7e91cdc17842893a3ac58ec2f3
-  React-Core-prebuilt: 3511b71cfccfc66be7ea6243cfc572df80602865
+  React-Core-prebuilt: f9e4e12c8859acb8ffcbe62467b552ccf71544b8
   React-CoreModules: edc6940bbae2a0a4084281104f8bdd3bac28ea02
   React-cxxreact: 2b313bf858930139f39cc3cb38af0df057137556
   React-debug: 321c2c55a233e31cb4d88e7ff86880bbb73d8cfd
@@ -3971,7 +3971,7 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: 9021ba029d8a68bd2236fa2f3a763c4b08c1db61
   ReactCodegen: 1bb7fd17c4d95c54f4e51a522ca094332fb57b96
   ReactCommon: f9e37991d8ed29fe1c9c9510f9ae87570fe35474
-  ReactNativeDependencies: 31f96d915ff27c8f98342cbf24c44eba232f6557
+  ReactNativeDependencies: 016a1e615555a5d3c1af6739a4fdb551682b8b17
   RNCAsyncStorage: 2ad919e88b8bc2cd80e8697ce66d04d006743283
   RNCMaskedView: eb2b2e538afa907f05a5848a1a1ac26092e6fec9
   RNCPicker: d74667bdfc08ed389a2a277d95b8faf2349290a9
@@ -3981,7 +3981,7 @@ SPEC CHECKSUMS:
   RNScreens: 01b065ded2dfe7987bcce770ff3a196be417ff41
   RNSVG: 04044c3abcf177fd674a1a3d13097efa1adebcbe
   RNWorklets: 8ad3204ef4ffd03ea4f43623112ad43ed4bd1cab
-  SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
+  SDWebImage: e9c98383c7572d713c1a0d7dd2783b10599b9838
   SDWebImageAVIFCoder: afe194a084e851f70228e4be35ef651df0fc5c57
   SDWebImageSVGCoder: 15a300a97ec1c8ac958f009c02220ac0402e936c
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
@@ -3991,6 +3991,6 @@ SPEC CHECKSUMS:
   Yoga: 983ded1b2ad53df33755f1f74cad7fee7d3081c4
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
 
-PODFILE CHECKSUM: 192c7b44d7282134e69d78ede989d660bdb877c2
+PODFILE CHECKSUM: a63ddafbc2bc8dd131f1bd3f4790fd1cf3a50279
 
 COCOAPODS: 1.16.2
