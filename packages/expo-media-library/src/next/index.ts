@@ -1,9 +1,9 @@
 import { PermissionResponse, UnavailabilityError } from 'expo-modules-core';
 import { Platform } from 'react-native';
 
+import { MediaSubtype } from '../MediaLibrary';
 import ExpoMediaLibraryNext from './ExpoMediaLibraryNext';
 import { GranularPermission } from './types/GranularPermission';
-import { MediaSubtype } from '../MediaLibrary';
 
 export * from './MediaLibraryNext.types';
 
@@ -47,7 +47,10 @@ export class Asset extends ExpoMediaLibraryNext.Asset {
   // @hidden
   getLivePhotoVideoUri(): Promise<string | null> {
     if (Platform.OS !== 'ios') {
-      throw new UnavailabilityError('MediaLibrary', 'getLivePhotoVideoUri is only available on iOS');
+      throw new UnavailabilityError(
+        'MediaLibrary',
+        'getLivePhotoVideoUri is only available on iOS'
+      );
     }
     return super.getLivePhotoVideoUri();
   }
